@@ -508,6 +508,7 @@
     display: block;
     width: 100%;
     margin-top: 10vw;
+    overflow: hidden;
   }
   .firstSection_mobile .swiper_mobile{
     /* width: 520px; */
