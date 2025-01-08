@@ -272,6 +272,17 @@ main{
 } 
 /* first_section end */
 
+
+
+
+
+
+/* firstSection_mobile start */
+.firstSection_mobile {
+  display: none;
+}
+/* firstSection_mobile end */
+
 /* second_section start */
 section.secondSection{
   height: 1000px;
