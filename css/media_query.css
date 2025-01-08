@@ -411,7 +411,7 @@
   .firstSection h2.section-title{
     text-align: center;
     font-weight: 500;
-    font-size: clamp(20px, 5vw, 40px);
+    font-size: clamp(23px, 5vw, 40px);
     color: #333;
     margin: 0px 20px 1.9vw;
   }
