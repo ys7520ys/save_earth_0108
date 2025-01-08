@@ -325,6 +325,9 @@
 
 
 
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+
 
 
 
@@ -459,23 +462,23 @@
   }
   .firstSection .text_box h2.card-title{
     position: absolute;
-    top: 4vw;
+    top: 30px;
     left: 0px;
     padding: 0px 20px;
     text-align: left;
-    font-size: clamp(20px, 4vw, 24px);
+    font-size: 38px;
     font-weight: 400;
     color: white;
     transition: color 0.4s ease;
   }
   .firstSection .text_box p.card-subtitle{
     position: absolute;
-    top: 10.2vw;
+    top: 100px;
     left: 0px;
     width: 100%;
     padding: 0px 20px;
     text-align: left;
-    font-size: clamp(14px, 2vw, 22px);
+    font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
     color: #ddd;
@@ -903,4 +906,14 @@
     text-decoration: underline;
   }
   /* footer end */
+}
+
+@media (max-width: 600px) {
+  .firstSection .text_box h2.card-title{
+    font-size: clamp(20px, 6.2vw, 40px);
+  }
+  .firstSection .text_box p.card-subtitle{
+    font-size: clamp(16px, 3.4vw, 25px);
+    top: 18vw;
+  }
 }
